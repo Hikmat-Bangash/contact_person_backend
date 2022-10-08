@@ -1,10 +1,10 @@
 import mysql from "mysql2";
 //----------- MYSQL CONNECTION ---------
 const db = mysql.createPool({
-    host: process.env.HOST,
-    user: process.env.USER,
+    host: "localhost",
+    user: "root",
     password: "",
-    database: process.env.DATABASE
+    database: "node_express_crud"
 })
 // connection end
 
